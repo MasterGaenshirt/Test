@@ -7,7 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Label x:Name="label" Content="Hello Test world" FontSize="20"/>
 
+        <StackPanel Orientation="Vertical">
+        <Label x:Name="label" Content="Hello Test world" FontSize="20"/>
+            <Label x:Name="label2" Content="New Line" FontSize="20"/>
+        </StackPanel>
     </Grid>
 </Window>
