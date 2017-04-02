@@ -11,6 +11,7 @@
         <StackPanel Orientation="Vertical">
         <Label x:Name="label" Content="Hello Test world" FontSize="20"/>
             <Label x:Name="label2" Content="New Line" FontSize="20"/>
+            <Label x:Name="label3" Content="New Line 2" FontSize="20"/>
         </StackPanel>
     </Grid>
 </Window>
